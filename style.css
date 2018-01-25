@@ -27,6 +27,11 @@ body{
   padding-right: 50px;
 }
 
+.blog-post img{
+  height: 150px;
+  width: auto;
+}
+
 h1, h2 {
     color: #008080;
 
@@ -65,11 +70,15 @@ float: left;
 }
 
 .author-box img{
-  height: 134px;
-  width: 136px;
+  height: 97px;
+  width: 100px;
   border-radius: 50%;
+  float: left;
 }
 
 .author-text {
 font-size: 22px;
+float: left;
+margin-top: 34px;
+margin-left: 10px;
 }
