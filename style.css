@@ -64,6 +64,12 @@ float: left;
   border-top: 1px solid #808080;
 }
 
+.author-box img{
+  height: 134px;
+  width: 136px;
+  border-radius: 50%;
+}
+
 .author-text {
 font-size: 22px;
 }
