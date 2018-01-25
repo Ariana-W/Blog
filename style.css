@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
 body{
     font-family: Helvetica;
     font-size: 18px;
@@ -11,9 +18,13 @@ body{
 
 .container{
   width: 1140px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto 0px auto;
+}
 
+.blog-post{
+  width: 75%;
+  float: left;
+  padding-right: 50px;
 }
 
 h1, h2 {
@@ -34,7 +45,23 @@ h2{
 
 .main-text {
  text-align: justify;
- margin-bottom: 20px;
+ margin-bottom: 50px;
+}
+
+
+.other-posts{
+margin-bottom: 50px;
+width: 25%;
+float: left;
+}
+
+.other{
+  margin-bottom: 40px;
+}
+
+.author-box{
+  padding-top: 20px;
+  border-top: 1px solid #808080;
 }
 
 .author-text {
